@@ -1,8 +1,9 @@
 package app.model;
 
 import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
 
-@Configuration
+@Component
 public class Timer extends Animal {
 
     private Long nanoTime = System.nanoTime();
